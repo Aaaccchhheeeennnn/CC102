@@ -1,4 +1,4 @@
-#include <iostream>
+include <iostream>
 
 using namespace std;
 
@@ -16,8 +16,11 @@ int main()
 	double coffeePriceUSD;
 	double milkPriceUSD;
 
-    double usdToPhp = 57.460;
-    double poundToPhp = 62.67;	
+    double usdToPhp = 58.36 ;
+    double poundToPhp = 75.62 ;	
+	
+	cout << "\n \t PRICES OF THE ITEMS" << endl ;
+	
 	cout << "Enter the price of sugar (in USD): ";
 	cin >> sugarPriceUSD;
 	cout << "Enter the price of rice (in Pound): ";
@@ -29,7 +32,9 @@ int main()
 	cout << "Enter the price of milk (in USD): ";
 	cin >> milkPriceUSD;
 	
-	cout << "Enter the quantity of sugar purchased: ";
+	cout << " \n \t QUANTITY " << endl ; 
+	
+	cout << " Enter the quantity of sugar purchased: ";
 	cin >> sugarQty;
 	cout << "Enter the quantity of rice purchased: ";
 	cin >> riceQty;
